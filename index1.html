@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Zhakhang </title>
+    <style>
+    
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(247, 126, 126);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: rgb(240, 237, 237);
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .food-image {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Animation */
+        .animation-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-top: 56.25%; /* 16:9 aspect ratio (adjust as needed) */
+            overflow: hidden;
+        }
+        .animation-text {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #d8e6e0;
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            border-radius: 5px;
+            animation: rotateText 5s linear infinite;
+        }
+        @keyframes rotateText {
+            0% {
+                transform: rotate(0deg);
+            }
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Nima Fast food</h1>
+        <p>Delicious Food in a Cozy Atmosphere</p>
+        <img src="https://static.vecteezy.com/system/resources/previews/016/133/291/original/simple-illustration-of-food-delivery-and-restaurant-logo-design-inspiration-icon-vector.jpg" alt="Image 1" class="image" width="200" height="200" style="position: absolute; top: 0px; left: 100px;">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+        <h2>About Us</h2>
+        <p>Welcome to our Food Hub! We take pride in serving mouthwatering dishes made with the freshest ingredients. Our friendly staff and cozy atmosphere make dining with us a memorable experience.</p>
+       <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .image {
+            opacity: 0;
+            animation: fade 4s ease-in-out infinite alternate;
+          }
+          
+          @keyframes fade {
+            0% {
+              opacity: 0;
+            }
+            50% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+            }
+          }
+        </style>
+        <div class="container">
+            <img src="https://cdn1.matadornetwork.com/blogs/1/2019/08/Bhutanese-meal-with-chili-cheese-red-rice-cheesy-potato-chicken-and-vegetables-1200x854.jpg" alt="Image 2" class="image" width="300" height="300">
+            
+          </div>
+          
+
+    </div>
+    
